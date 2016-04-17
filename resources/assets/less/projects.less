@@ -1,0 +1,129 @@
+.row {padding: 10px;}
+
+.project__a {
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	margin-bottom: 20px;}
+
+.project__a:hover {
+	text-decoration: none;}
+
+.project__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(15,15,15,0.3);}
+
+.project__img-gutter {
+	margin: 0 10px;
+    position: relative;}
+
+.zoom {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    background: rgba(43,46,74,0.5);
+    text-align: center;
+    display: table-cell;
+    opacity: 0;
+    transition: all .2s linear;}
+
+.zoom:hover {
+    opacity: 1;}
+
+.project__img-gutter .zoom .fa {
+	color: #eee;
+    font-size: 22pt;
+    position: relative;
+    top: 50%;
+    margin-top: -16px;}
+
+.project__title {
+    margin: 10px 10px 6px 10px;
+    text-align: center;
+    color: #E4F1FE;
+    font-family: @personal_font;
+    font-weight: bolder;	
+    text-decoration: none;}
+
+.projects {
+    padding-top: 10px;
+    padding-bottom: 10px;}
+
+.projects__more {
+	margin-bottom: 15px;
+    padding: 4px 6px;
+    zoom: 1;
+    border-radius: 4px;}    
+
+.projects__date {
+    float: left;
+    width: 90px;
+    border-right: 1px solid #304559;
+    margin-right: 17px;
+    padding-right: 17px;
+	text-align: right;
+	line-height: 20px;}
+
+.projects__month {
+    font-weight: lighter;
+    color: #E4F1FE;
+    font-size: 11pt;
+	line-height: 20px;}
+
+.projects__year {
+    font-size: 12pt;
+    color: #ccc;}
+
+.projects__about {float: left;}
+
+.projects__title {
+	font-family: Montserrat;
+    font-size: 13pt;
+    color: #E4F1FE;
+	line-height: 24.7619px;}
+
+.projects__subtitle {
+	color: #b1c3d4;
+	line-height: 20px;
+	font-size: 14px;}
+
+.projects__actions {
+	float: right;}
+
+.projects__btn {
+	float: right;
+	margin-left: 10px;	
+	background: transparent;
+    border-color: #3498db;
+    color: #3498db;	
+    font-weight: bolder;
+	padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 4px;
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border: 1px solid rgb(74, 163, 223);
+	text-decoration: none;}
+
+.projects__btn:hover {
+	color: white;
+	background: rgb(74, 163, 223);
+	text-decoration: none;}
+
+.projects__btn .fa {padding-right: 6px;}
