@@ -1,40 +1,40 @@
 
 @extends('layout')
 @section('content')
-<div class="row"><a href="/projects/rocket-yourself" class="project__a col-xs-12 col-sm-4">
+<div class="row"><a href="/projects/this-one" class="project__a col-xs-12 col-sm-4">
     <div class="row">
       <div class="project__img-gutter">
-        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f9114399e54.png" alt="Rocket Yourself" class="project__img"/>
+        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/2016-04-18_8-56-45.jpg" alt="This One" class="project__img"/>
       </div>
-      <div class="project__title">Rocket Yourself</div>
+      <div class="project__title">This One</div>
     </div></a><a href="/projects/scanlibs-idea" class="project__a col-xs-12 col-sm-4">
     <div class="row">
       <div class="project__img-gutter">
-        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f7c1bf5b3cb.jpg" alt="Partnerrs" class="project__img"/>
+        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f7c1bf5b3cb.jpg" alt="Scanlibs Idea" class="project__img"/>
       </div>
       <div class="project__title">Scanlibs Idea</div>
     </div></a><a href="/projects/slim-scalling" class="project__a col-xs-12 col-sm-4 col_ima">
     <div class="row">
       <div class="project__img-gutter">
-        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f80518a7cd3.jpg" alt="Yurka App" class="project__img"/>
+        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f80518a7cd3.jpg" alt="Slim Scalling" class="project__img"/>
       </div>
       <div class="project__title">Slim Scalling</div>
     </div></a><a href="/projects/contats-us" class="project_a col-xs-12 col-sm-4">
     <div class="row">
       <div class="project__img-gutter">
-        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f9163df3fc3.jpg" alt="Rocket App" class="project__img"/>
+        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f9163df3fc3.jpg" alt="Contact Us" class="project__img"/>
       </div>
       <div class="project__title">Contact Us</div>
     </div></a><a href="/projects/roundfollio" class="project__a col-xs-12 col-sm-4">
     <div class="row">
       <div class="project__img-gutter">
-        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f90dd5e7e03.jpg" alt="CheckThis" class="project__img"/>
+        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f90dd5e7e03.jpg" alt="Rounfollio" class="project__img"/>
       </div>
       <div class="project__title">Rounfollio</div>
     </div></a><a href="/projects/piatto.psd" class="project__a col-xs-12 col-sm-4">
     <div class="row">
       <div class="project__img-gutter">
-        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f90910de1d2.jpg" alt="LetsPost" class="project__img"/>
+        <div class="zoom"><i class="fa fa-folder-open"></i></div><img src="/images/56f90910de1d2.jpg" alt="Piatto Psd" class="project__img"/>
       </div>
       <div class="project__title">Piatto Psd </div>
     </div></a></div>
@@ -46,10 +46,10 @@
         <div class="projects__year">2016</div>
       </div>
       <div class="projects__about">
-        <div class="projects__title">Help Center</div>
-        <div class="projects__subtitle">Open-source help app.</div>
+        <div class="projects__title">This One</div>
+        <div class="projects__subtitle">Portfollio Cases. No Database Laravel Solution.</div>
       </div>
-      <div class="projects__actions"><a href="/projects/askme" class="projects__btn btn-sm btn-ghost btn-primary"><i class="fa fa-info-circle"></i>More info    </a></div>
+      <div class="projects__actions"><a href="/projects/this-one" class="projects__btn btn-sm btn-ghost btn-primary"><i class="fa fa-info-circle"></i>More info    </a></div>
     </div>
     <div class="projects__more project-modal col-xs-12">
       <div class="projects__date">

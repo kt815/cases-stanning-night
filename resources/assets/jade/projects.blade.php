@@ -1,20 +1,20 @@
 | @extends('layout')
 | @section('content')
 .row
-    a.project__a.col-xs-12.col-sm-4(href='/projects/rocket-yourself')
+    a.project__a.col-xs-12.col-sm-4(href='/projects/this-one')
       .row
         .project__img-gutter
           .zoom
             i.fa.fa-folder-open
-          img.project__img(src='/images/56f9114399e54.png', alt='Rocket Yourself')
+          img.project__img(src='/images/2016-04-18_8-56-45.jpg', alt='This One')
         .project__title
-          | Rocket Yourself
+          | This One
     a.project__a.col-xs-12.col-sm-4(href='/projects/scanlibs-idea')
       .row
         .project__img-gutter
           .zoom
             i.fa.fa-folder-open
-          img.project__img(src='/images/56f7c1bf5b3cb.jpg', alt='Partnerrs')
+          img.project__img(src='/images/56f7c1bf5b3cb.jpg', alt='Scanlibs Idea')
         .project__title
           | Scanlibs Idea
     a.project__a.col-xs-12.col-sm-4.col_ima(href='/projects/slim-scalling')
@@ -22,7 +22,7 @@
         .project__img-gutter
           .zoom
             i.fa.fa-folder-open
-          img.project__img(src='/images/56f80518a7cd3.jpg', alt='Yurka App')
+          img.project__img(src='/images/56f80518a7cd3.jpg', alt='Slim Scalling')
         .project__title
           | Slim Scalling
     a.project_a.col-xs-12.col-sm-4(href='/projects/contats-us')
@@ -30,7 +30,7 @@
         .project__img-gutter
           .zoom
             i.fa.fa-folder-open
-          img.project__img(src='/images/56f9163df3fc3.jpg', alt='Rocket App')
+          img.project__img(src='/images/56f9163df3fc3.jpg', alt='Contact Us')
         .project__title
           | Contact Us
     a.project__a.col-xs-12.col-sm-4(href='/projects/roundfollio')
@@ -38,7 +38,7 @@
         .project__img-gutter
           .zoom
             i.fa.fa-folder-open
-          img.project__img(src='/images/56f90dd5e7e03.jpg', alt='CheckThis')
+          img.project__img(src='/images/56f90dd5e7e03.jpg', alt='Rounfollio')
         .project__title
           | Rounfollio
     a.project__a.col-xs-12.col-sm-4(href='/projects/piatto.psd')
@@ -46,7 +46,7 @@
         .project__img-gutter
           .zoom
             i.fa.fa-folder-open
-          img.project__img(src='/images/56f90910de1d2.jpg', alt='LetsPost')
+          img.project__img(src='/images/56f90910de1d2.jpg', alt='Piatto Psd')
         .project__title
           | Piatto Psd 
 .page__wrapper_left
@@ -56,10 +56,10 @@
         .projects__month April
         .projects__year 2016
       .projects__about
-        .projects__title Help Center
-        .projects__subtitle Open-source help app.
+        .projects__title This One
+        .projects__subtitle Portfollio Cases. No Database Laravel Solution.
       .projects__actions
-        a.projects__btn.btn-sm.btn-ghost.btn-primary(href='/projects/askme')
+        a.projects__btn.btn-sm.btn-ghost.btn-primary(href='/projects/this-one')
           i.fa.fa-info-circle
           | More info    
     .projects__more.project-modal.col-xs-12

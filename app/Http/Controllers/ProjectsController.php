@@ -15,6 +15,15 @@ class ProjectsController extends Controller
 
 switch ($slug) {
 
+    case 'this-one':
+        $subtitle = 'Portfollio Cases.';
+        $technologies = 'PHP, Laravel Jade, Gulp, Less.';
+        $description = 'No Database Laravel Solution.';    
+        $github = array("https://github.com/kt815/cases-stanning-night");
+        $local = "none";
+        $image_src = array("2016-04-18_8-36-41.jpg");
+        break;
+
     case 'scanlibs-idea':
         $subtitle = 'Laravel 5 Parser external website and Useful Interface.';
         $technologies = 'PHP, Laravel 5, jQuery Ajax, MySQL.';
