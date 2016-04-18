@@ -1,5 +1,5 @@
 # Laravel No Database Solution
 
-## Used Jade. Gulp. Bootstrap Grid. Mobile First
+**Used: jade, gulp, bootstrap grid, mobile first**
 
 * available in http://kt815.esy.es
